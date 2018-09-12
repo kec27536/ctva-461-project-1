@@ -4,6 +4,12 @@
 
 	<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
 
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Noto+Serif+JP:500" rel="stylesheet">
+
+	<link rel="stylesheet" href="screen.css">
+
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
 	<meta charset="UTF-8">
@@ -11,29 +17,57 @@
 </head>
 <body>
 
-	
+	<header class="border-b md:flex md:items-center md:justify-between p-4 pb-0 shadow-lg md:pb-4">
+	  
+	  <!-- Logo text or image -->
+	  <div class="flex items-center justify-between mb-4 md:mb-0">
+	    <h1 class="leading-none text-2xl text-grey-darkest">
+	      <a class="no-underline text-grey-darkest hover:text-black" href="#">
+	        Site Title
+	      </a>
+	    </h1>
 
-	<h1>CTVA 461 Project 1: Part 1</h1>
+	    <a class="text-black hover:text-orange md:hidden" href="#">
+	      <i class="fa fa-2x fa-bars"></i>
+	    </a>
+	  </div>
+	  <!-- END Logo text or image -->
+	  
+	  <!-- Search field -->
+	  <form class="mb-4 w-full md:mb-0 md:w-1/4">
+	    <label class="hidden" for="search-form">Search</label>
+	    <input class="bg-grey-lightest border-2 focus:border-orange p-2 rounded-lg shadow-inner w-full" placeholder="Search" type="text">
+	    <button class="hidden">Submit</button>
+	  </form>
+	  <!-- END Search field -->
+	  
+	  <!-- Global navigation -->
+	  <nav>
+	    <ul class="list-reset md:flex md:items-center">
+	      <li class="md:ml-4">
+	        <a class="block no-underline hover:underline py-2 text-grey-darkest hover:text-black md:border-none md:p-0" href="#">
+	          Products
+	        </a>
+	      </li>
+	      <li class="md:ml-4">
+	        <a class="border-t block no-underline hover:underline py-2 text-grey-darkest hover:text-black md:border-none md:p-0" href="#">
+	          About
+	        </a>
+	      </li>
+	      <li class="md:ml-4">
+	        <a class="border-t block no-underline hover:underline py-2 text-grey-darkest hover:text-black md:border-none md:p-0" href="#">
+	          Contact
+	        </a>
+	      </li>
+	    </ul>
+	  </nav>
+	  <!-- END Global navigation -->
 
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut voluptates eligendi quasi provident nemo maxime expedita, dolore omnis corrupti, at dicta, aliquid. Excepturi officiis impedit, laboriosam veritatis quisquam dicta doloribus.</p>
+	</header>
 
-	<nav>
-		<ul>
-			<li>
-				<a href="index.html">Home</a>
-			</li>
+	<article>
+	  
+	</article>
 
-			<li>
-				<a href="part1.html">Part One</a>
-			</li>
-			<li>
-				<a href="part2.html">Part Two</a>
-			</li>
-			<li>
-				<a href="part3.html">Part Three</a>
-			</li>
-		</ul>
-	
-	
 </body>
 </html>
