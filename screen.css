@@ -24,5 +24,11 @@ font-family: 'Libre Baskerville', serif;
 }
 
 .font-sans {
-font-family: 'Noto Serif JP', sans-serif;
+font-family: 'Anton', sans-serif;
+}
+
+
+
+.h1 {
+	background-color: rgba(0,0,0,0);
 }
