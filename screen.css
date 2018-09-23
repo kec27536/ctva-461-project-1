@@ -7,6 +7,31 @@
  * Update the background images to suit
  * your project.
  */
+
+.bg-cover-image {
+	background: url(images/cover2.jpg) center center no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.bg-cover-image2 {
+	background: url(images/studio3.jpg) center center no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.bg-page2-cover {
+	background: url(images/vinyl2.jpg) center center no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.bg-page3-cover {
+	background: url(images/vinyl3.jpg) center center no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
 .bg-header {
   background: url(https://picsum.photos/1920/1920/?random) center center no-repeat;
   background-attachment: fixed;
@@ -27,7 +52,65 @@ font-family: 'Libre Baskerville', serif;
 font-family: 'Anton', sans-serif;
 }
 
+.text-box {
+	background-color: rgba(255, 255, 255, .7);
+	color: #000;
+}
 
+
+/*------------- VIDEO -------------*/
+
+.video-title {
+  background: #fff;
+}
+
+@media only screen and (min-width : 768px) {
+  .video-wrapper {
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+    width: 100%;
+  }
+
+  .video-wrapper video {
+    height: 100%;
+    position: absolute;
+      top: 0;
+      left: 0;
+    width: 100%;
+  }
+
+  .video-title {
+    background-color: rgba(255,255,255, 1);
+    position: absolute;
+      top: 50%;
+      left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+
+  }
+}
+
+
+
+
+
+/* --------------- MEDIA Q ---------------*/
+
+@media(max-width: 399px) {
+	.bg-cover-image {
+		background: url(images/cover.jpg) center center no-repeat;
+		background-attachment: fixed;
+		background size: 100% 100%; 
+	}
+
+
+
+	.mediaq {
+		background-size: 200% 200%;
+
+	}
+}
 
 .h1 {
 	background-color: rgba(0,0,0,0);
