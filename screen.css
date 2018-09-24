@@ -21,13 +21,13 @@
 }
 
 .bg-page2-cover {
-	background: url(images/vinyl2.jpg) center center no-repeat;
+	background: url(images/vinyl7.jpg) center center no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 100%;
 }
 
 .bg-page3-cover {
-	background: url(images/vinyl3.jpg) center center no-repeat;
+	background: url(images/vinyl6.jpg) center center no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 100%;
 }
@@ -38,8 +38,9 @@
 }
 
 .bg-quote {
-  background: url(https://picsum.photos/1600/1600/?random) center center no-repeat;
+  background: url(images/vinyl8.jpg) center center no-repeat;
   background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 /* Load Custom Fonts */
@@ -104,8 +105,12 @@ font-family: 'Anton', sans-serif;
 		background size: 100% 100%; 
 	}
 
-
-
+	
+	.bg-quote {
+  background: url(images/vinyl8.jpg) center center no-repeat;
+  background-attachment: fixed;
+  
+}
 	.mediaq {
 		background-size: 200% 200%;
 
